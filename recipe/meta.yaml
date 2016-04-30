@@ -12,7 +12,7 @@ source:
 build:
   entry_points:
     - bob_of_liu.py = bob.ip.optflow.liu.script.flow:main
-  number: 0
+  number: 1
   skip: true  # [not linux]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
@@ -26,7 +26,6 @@ requirements:
     - bob.io.image
     - bob.io.video
     - bob.ip.color
-    - gcc     # [linux]
 
   run:
     - python
@@ -36,7 +35,6 @@ requirements:
     - bob.io.image
     - bob.io.video
     - bob.ip.color
-    - libgcc  # [linux]
 
 test:
   commands:
