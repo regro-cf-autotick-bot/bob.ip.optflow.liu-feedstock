@@ -13,7 +13,7 @@ build:
   entry_points:
     - bob_of_liu.py = bob.ip.optflow.liu.script.flow:main
   number: 1
-  skip: true  # [not linux]
+  skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,6 +26,7 @@ requirements:
     - bob.io.image
     - bob.io.video
     - bob.ip.color
+    - pkg-config
 
   run:
     - python
