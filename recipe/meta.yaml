@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.ip.optflow.liu
@@ -6,13 +6,13 @@ package:
 
 source:
   fn: bob.ip.optflow.liu-{{ version }}.zip
-  md5: 4fe7ce56f749b7a19e683cb16a946b94
-  url: https://pypi.python.org/packages/source/b/bob.ip.optflow.liu/bob.ip.optflow.liu-{{ version }}.zip
+  md5: a154a2d3a932a5556446082a209e06db
+  url: https://pypi.io/packages/source/b/bob.ip.optflow.liu/bob.ip.optflow.liu-{{ version }}.zip
 
 build:
   entry_points:
     - bob_of_liu.py = bob.ip.optflow.liu.script.flow:main
-  number: 1
+  number: 0
   skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
