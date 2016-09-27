@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.0.8" %}
 
 package:
   name: bob.ip.optflow.liu
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.ip.optflow.liu-{{ version }}.zip
-  md5: a154a2d3a932a5556446082a209e06db
+  md5: 7086e84181f8e256043cad806bf41389
   url: https://pypi.io/packages/source/b/bob.ip.optflow.liu/bob.ip.optflow.liu-{{ version }}.zip
 
 build:
@@ -53,7 +53,7 @@ test:
     - nose
 
 about:
-  home: https://github.com/bioidiap/bob.ip.optflow.liu
+  home: https://www.idiap.ch/software/bob/
   license: GNU General Public License v3 (GPLv3)
   summary: Python bindings to the optical flow framework by C. Liu
 
