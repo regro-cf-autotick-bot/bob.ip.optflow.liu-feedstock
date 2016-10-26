@@ -19,6 +19,7 @@ build:
 requirements:
   build:
     - python
+    - toolchain
     - setuptools
     - bob.extension
     - bob.blitz
