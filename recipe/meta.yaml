@@ -1,4 +1,4 @@
-{% set version = "2.0.9" %}
+{% set version = "2.0.12" %}
 
 package:
   name: bob.ip.optflow.liu
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.ip.optflow.liu-{{ version }}.zip
-  md5: 12feaab2482e75c2c9d5f46d04f05fb2
+  md5: 19a6af2864cfc7e87f235bbf931f1ff1
   url: https://pypi.io/packages/source/b/bob.ip.optflow.liu/bob.ip.optflow.liu-{{ version }}.zip
 
 build:
